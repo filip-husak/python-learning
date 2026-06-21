@@ -40,5 +40,5 @@ python-learning/
 
  🔗 Contact
 
-- LinkedIn: [[link]](https://www.linkedin.com/in/filip-hus%C3%A1k-5765aa418/)
+- LinkedIn: [link](https://www.linkedin.com/in/filip-hus%C3%A1k-5765aa418/)
 - GitHub: [profile link](https://github.com/filip-husak)
