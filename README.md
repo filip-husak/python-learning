@@ -13,40 +13,32 @@ A repository where I track my progress learning Python. The goal is to gradually
 
 | Topic | Status | Notes |
 |---|---|---|
-| Basic syntax (variables, conditionals, loops) | ⬜ / 🟨 / ✅ | |
-| Functions and modules | ⬜ / 🟨 / ✅ | |
-| Data structures (list, dict, set, tuple) | ⬜ / 🟨 / ✅ | |
-| File handling | ⬜ / 🟨 / ✅ | |
-| OOP (classes, objects) | ⬜ / 🟨 / ✅ | |
-| Working with libraries (e.g. requests, pandas) | ⬜ / 🟨 / ✅ | |
-| Basics of testing | ⬜ / 🟨 / ✅ | |
-
-> Adjust the rows above to match what's actually in the repo.
+| Basic syntax (variables, conditionals, loops) | ⬜ | |
+| Functions and modules | ⬜ | |
+| Data structures (list, dict, set, tuple) | ✅ | |
+| File handling | ⬜ | |
+| OOP (classes, objects) | ⬜ | |
+| Working with libraries (e.g. requests, pandas) | ⬜ | |
+| Basics of testing | ⬜ | |
 
 ## 🗂️ Repository structure
-
 
 python-learning/
 ├── 01-basics/
 ├── ...
 └── README.md
-```
-
-*(update to match your actual folder structure)*
 
 ## 📈 Progress log
 
-Short notes on what I learned/worked on – great for regular commits.
-
-- **[date]** – what I worked on / learned today
-- **[date]** – ...
+- **21.6.2026** – Learned how datatypes work, did a quick recap of them in practice.
+<!--  **[date]** – ...-->
 
 ## 🛠️ Tech stack
 
 - Python 3.x
-- (add your editor/IDE, libraries, and tools)
+- VS Code
 
-## 🔗 Contact
+ 🔗 Contact
 
-- LinkedIn: [link]
-- GitHub: [profile link]
+- LinkedIn: [[link]](https://www.linkedin.com/in/filip-hus%C3%A1k-5765aa418/)
+- GitHub: [profile link](https://github.com/filip-husak)
