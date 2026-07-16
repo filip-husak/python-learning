@@ -1,44 +1,55 @@
 # Python Learning
 
-A repository where I track my progress learning Python. The goal is to gradually master the fundamentals of programming and land my first role in IT by **January 2027**.
+Repozitář, kde sleduju svůj postup v učení Pythonu. Cíl: zvládnout základy programování a získat první pozici v IT do **ledna 2027**.
 
-## 🎯 Goal
+## 🎯 Cíl
 
-- Learn the fundamentals of Python (syntax, data structures, OOP, file handling)
-- Combine this with what I already know – **C#** and **SQL**
-- Gradually build small projects, not just exercises
-- Get ready for a first junior position in IT
+- Naučit se základy Pythonu (syntaxe, datové struktury, OOP, práce se soubory)
+- Propojit to s tím, co už znám – **C#** a **SQL**
+- Postupně stavět malé projekty, ne jen izolovaná cvičení
+- Připravit se na první juniorní pozici v IT
 
-## 📚 What I'm learning
+## 📚 Co se učím
 
-| Topic | Status | Notes |
+| Téma | Stav | Poznámka |
 |---|---|---|
-| Basic syntax (variables, conditionals, loops) | ⬜ | |
-| Functions and modules | ⬜ | |
-| Data structures (list, dict, set, tuple) | ✅ | |
-| File handling | ⬜ | |
-| OOP (classes, objects) | ⬜ | |
-| Working with libraries (e.g. requests, pandas) | ⬜ | |
-| Basics of testing | ⬜ | |
+| Základní syntaxe (proměnné, podmínky, cykly) | 🟡 | |
+| Datové typy a type checking (`isinstance`, `type()`) | 🟡 | `isinstance_funct.py` |
+| Práce se stringy (concatenation, slicing, metody) | ✅ | `strings.py`, `more_string_methods.md` |
+| Funkce a moduly | ⬜ | |
+| Datové struktury (list, dict, set, tuple) | ⬜ | |
+| Práce se soubory | ⬜ | |
+| OOP (třídy, objekty) | ⬜ | |
+| Práce s knihovnami (`requests`, `pandas`) | ⬜ | |
+| Základy testování (`pytest`) | ⬜ | |
 
-## 🗂️ Repository structure
+`⬜` nezačato · `🟡` rozpracováno · `✅` hotovo
 
+## 🗂️ Struktura repozitáře
 python-learning/
-├── 01-basics/
-├── ...
+├── hello_world_datatypes.py
+├── strings.py
+├── more_string_methods.md
+├── isinstance_funct.py
+├── python_employee_profile_generator/
+│   └── ...
 └── README.md
+## 🛠️ Projekty
 
-## 📈 Progress log
+### Employee Profile Generator
+- **Co to je:** *Zobrazení jednoduchých pracovních profilů, test s datovými typy*
+- **Status:*hotovo*
 
-- **21.6.2026** – Learned how datatypes work, did a quick recap of them in practice.
-<!--  **[date]** – ...-->
+## 📈 Log postupu
+
+- **21.6.2026** – Naučil jsem se, jak fungují datové typy, udělal rychlé opakování v praxi.
 
 ## 🛠️ Tech stack
 
 - Python 3.x
 - VS Code
 
- 🔗 Contact
+## 🔗 Kontakt
 
-- LinkedIn: [link](https://www.linkedin.com/in/filip-hus%C3%A1k-5765aa418/)
-- GitHub: [profile link](https://github.com/filip-husak)
+- LinkedIn: [odkaz](https://www.linkedin.com/in/filip-hus%C3%A1k-5765aa418/)
+- GitHub: [profil](https://github.com/filip-husak)
