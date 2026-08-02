@@ -28,4 +28,3 @@ def outer_func():
 print(outer_var) # NameError: name 'outer_var' is not defined
 
 # Example of Global Scope
-def
