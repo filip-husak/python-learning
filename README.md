@@ -44,6 +44,9 @@ python-learning/
 │   └── bill_splitter.py
 ├── Movie Ticket Booking Calculator/
 │   └── movie_ticket_booking_calculator.py
+├── Travel Weather Planner/
+│   ├── travel_weather_planner.py
+│   └── Travel_Weather_Planner.md
 └── README.md
 ```
 
@@ -61,10 +64,15 @@ python-learning/
 - **Co to je:** Kalkulačka ceny vstupenky podle věku, typu sedadla a času představení – trénink podmínek a booleovské logiky.
 - **Status:** ✅ hotovo
 
+### Travel Weather Planner
+- **Co to je:** Rozhodovací logika, jestli se dá dojet na určitou vzdálenost podle počasí a dostupné dopravy (pěšky, kolo, auto, rideshare) – řetězené `if`/`elif`/`else` a vyhodnocování vzdálenostních kategorií.
+- **Status:** ✅ hotovo
+
 ## 📈 Log postupu
 
 - **21.6.2026** – Naučil jsem se, jak fungují datové typy, udělal rychlé opakování v praxi.
 - **22.7.2026** – Přidal cvičení na čísla (`int`/`float`, konverze, floor division, `round`/`abs`/`pow`) a na booleans/podmínky. Vytvořil dva cvičné projekty: Bill Splitter a Movie Ticket Booking Calculator.
+- **2.8.2026** – Dokončil projekt Travel Weather Planner (řetězené podmínky, vyhodnocování více proměnných najednou). Dál pokračuju na téma **funkce**.
 
 ## 🛠️ Tech stack
 
@@ -75,4 +83,3 @@ python-learning/
 
 - LinkedIn: [odkaz](https://www.linkedin.com/in/filip-hus%C3%A1k-5765aa418/)
 - GitHub: [profil](https://github.com/filip-husak)
-
