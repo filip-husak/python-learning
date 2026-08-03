@@ -27,4 +27,44 @@ def outer_func():
 
 print(outer_var) # NameError: name 'outer_var' is not defined
 
-# Example of Global Scope
+# Another example of Enclosing Scope - 
+def outer_func():
+    msg = 'Hello there!'
+    res = ""  # Declare res in the enclosing scope
+
+    def inner_func():
+        nonlocal res  # Allow modification of an enclosing variable
+        res = 'How are you?'
+        print(msg)  # Accessing msg from outer_func()
+
+    inner_func()
+    print(res)  # Now res is accessible and modified
+
+outer_func()
+
+# Output:
+# Hello there!
+# How are you?
+
+# Example of Global Scope - can be accessed from anywhere in the module
+global_var = "Global variable string"
+
+def access_global_var():
+    print(global_var)  # Accessing the global variable
+
+access_global_var() # Global variable string
+print(global_var) # Global variable string
+
+# I can use 
+my_var_1 = 7
+
+def show_vars():
+    global my_var_2
+    my_var_2 = 10
+    print(my_var_1)
+    print(my_var_2)
+
+show_vars() # 7 10
+
+# my_var_2 is now a global variable and can be accessed anywhere in the program
+print(my_var_2) # 10
