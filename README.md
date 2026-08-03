@@ -22,6 +22,7 @@ Repozitář, kde sleduju svůj postup v učení Pythonu. Cíl: zvládnout zákla
 | OOP (třídy, objekty) | ⬜ | |
 | Práce s knihovnami (`requests`, `pandas`) | ⬜ | |
 | Základy testování (`pytest`) | ⬜ | |
+| Validace vstupních parametrů, `__name__ == "__main__"` guard | ✅ | `Product Discounter/product_discounter.py` |
  
 `⬜` nezačato · `🟡` rozpracováno · `✅` hotovo
  
@@ -43,6 +44,8 @@ python-learning/
 │   └── bill_splitter.py
 ├── Movie Ticket Booking Calculator/
 │   └── movie_ticket_booking_calculator.py
+├── Product Discounter/
+│   └── product_discounter.py
 ├── Travel Weather Planner/
 │   ├── travel_weather_planner.py
 │   └── Travel_Weather_Planner.md
@@ -62,6 +65,9 @@ python-learning/
 ### Movie Ticket Booking Calculator
 - **Co to je:** Kalkulačka ceny vstupenky podle věku, typu sedadla a času představení – trénink podmínek a booleovské logiky.
 - **Status:** ✅ hotovo
+### Product Discounter
+- **Co to je:** Funkce `apply_discount(price, discount)` s validací vstupních parametrů (`isinstance`, okrajové hodnoty) a výpočtem ceny po slevě. Interaktivní vstup přes `input()`.
+- **Status:** ✅ hotovo
 ### Travel Weather Planner
 - **Co to je:** Rozhodovací logika, jestli se dá dojet na určitou vzdálenost podle počasí a dostupné dopravy (pěšky, kolo, auto, rideshare) – řetězené `if`/`elif`/`else` a vyhodnocování vzdálenostních kategorií.
 - **Status:** ✅ hotovo
@@ -71,6 +77,7 @@ python-learning/
 - **22.7.2026** – Přidal cvičení na čísla (`int`/`float`, konverze, floor division, `round`/`abs`/`pow`) a na booleans/podmínky. Vytvořil dva cvičné projekty: Bill Splitter a Movie Ticket Booking Calculator.
 - **2.8.2026** – Dokončil projekt Travel Weather Planner (řetězené podmínky, vyhodnocování více proměnných najednou). Dál pokračuju na téma **funkce**.
 - **2.8.2026** – Funkce, část 1: definice funkce, argumenty, `return`. Scope (local/enclosing/global/built-in) – zatím teorie a základní příklady.
+- **3.8.2026** – Funkce, část 2: psaní vlastní funkce s validací vstupních parametrů (`isinstance`, ošetření okrajových hodnot) – dokončen projekt **Product Discounter** (`apply_discount`). Poučení: kód pro interaktivní vstup (`input()`) patří pod `if __name__ == "__main__":`, jinak shodí import modulu při automatickém testování.
 ## 🛠️ Tech stack
  
 - Python 3.x
